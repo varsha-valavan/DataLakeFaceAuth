@@ -53,7 +53,7 @@ export const HomeScreen: React.FC<Props> = ({ navigation, db, syncService }) => 
 
       <TouchableOpacity
         style={[styles.button, styles.secondaryButton]}
-        onPress={() => navigation.navigate('Enroll')}
+        onPress={() => navigation.navigate('Auth')}
       >
         <Text style={styles.buttonText}>👤  Enroll New Face</Text>
       </TouchableOpacity>
